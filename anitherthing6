@@ -292,7 +292,7 @@ color: white;
     background-image: linear-gradient(#6e7178 0%, #36393f 30%, #202225 80%, black 100%);
 }
 .btnSophie:hover
-{ 
+{
     background-image: linear-gradient(#7b7e85 0%, #40444a 30%, #393c40 80%, #171717 100%);
 }
 #x {
@@ -335,7 +335,7 @@ else {
             background-image: linear-gradient(#FEC5E5 0%, #FD5DA8 30%, #FF1694 80%, #E11584 100%);
         }
         .btnSophie:hover
-        { 
+        {
             background-image: linear-gradient(#F2B8C6 0%, #FCBACB 30%, #FA86C4 80%, #FE7F9C 100%);
         }
         #x {
@@ -378,7 +378,7 @@ else {
             background-image: linear-gradient(#00a1fe 0%, #5d9afd 30%, #1626ff 80%, #1f15e1 100%);
         }
         .btnSophie:hover
-        { 
+        {
             background-image: linear-gradient(#b8bcf2 0%, #babbfc 30%, #8c86fa 80%, #969fff 100%);
         }
         #x {
@@ -424,7 +424,7 @@ else {
             color:white
         }
         .btnSophie:hover
-        { 
+        {
             background-image: linear-gradient(#b8bcf2 0%, #babbfc 30%, #8c86fa 80%, #969fff 100%);
             color: white
         }
@@ -482,7 +482,7 @@ else {
             color:white
         }
         .btnSophie:hover
-        { 
+        {
             linear-gradient(to bottom, #b69471 0%,#9f764d 22%,#8f6133 30%,#6c4d2d 100%);
             color: white
         }
@@ -532,7 +532,7 @@ else {
                 background-image: linear-gradient(#6e7178 0%, #36393f 30%, #202225 80%, black 100%);
             }
             .btnSophie:hover
-            { 
+            {
                 background-image: linear-gradient(#7b7e85 0%, #40444a 30%, #393c40 80%, #171717 100%);
             }
             #x {
@@ -943,7 +943,7 @@ for (var i = 0; i < sendOrder.length; i++) {
     <table class="vis" border="1" style="width: 100%">
     <thead>
     </thead>
-    <tbody>    
+    <tbody>
         <tr>
             <td style=" text-align:center;background-color:${headerColor};padding: 5px;"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_${sendOrder[i]}.png" title="${sendOrder[i]}" alt="" class=""></td>
         </tr>
@@ -956,7 +956,7 @@ for (var i = 0; i < sendOrder.length; i++) {
         <tr>
             <td align="center" style="background-color:${backgroundColor};padding: 5px;"><input type="text" ID="${sendOrder[i]}Backup" name="${sendOrder[i]}" value="${keepHome[sendOrder[i]]}" size="5"></td>
         </tr>
-        </tbody>  
+        </tbody>
     </table>
 </td>`);
     $("#imgRow").sortable({
