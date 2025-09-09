@@ -628,6 +628,7 @@ function getData() {
                         arrayWithData += thisPageData + ",";
                     },
                     () => {
+                        console.log(arrayWithData)
                         //on done
                         arrayWithData = arrayWithData.substring(0, arrayWithData.length - 1);
                         //closing bracket so we can parse the data into a useable array
