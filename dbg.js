@@ -624,6 +624,8 @@ function getData() {
                 arrayWithData = "[";
                 $.getAll(URLs,
                     (i, data) => {
+                        console.log("Data from page " + i + " loaded");
+                        console.log(data);
                         thisPageData = $(data).find('script:contains("ScavengeMassScreen")').html().match(/\{.*\:\{.*\:.*\}\}/g)[2];
                         arrayWithData += thisPageData + ",";
                     },
